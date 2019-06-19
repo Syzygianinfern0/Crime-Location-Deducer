@@ -25,7 +25,7 @@ The original dataset can be taken from [here](https://drive.google.com/drive/fol
 * Any external dataset if to be used must follow all manipulations undergone by the train/test/validation data. It's pretty easy to port the code as required as everything is modular and functions exist for all tasks
 
 # Result
-The below function use absolute tolerance and relative tolerance to measure the closeness between float objects. The model achieved a very good result with only **26 predictions having a deviation above 0.4% out of about 3 lakhs samples!!! 👌👌
+The below function use absolute tolerance and relative tolerance to measure the closeness between float objects. The model achieved a very good result with only **26 predictions having a deviation above 0.4% out of about 3 lakhs samples**!!! 👌👌
 
 This suggests that our model is so accurate that it can almost be used in real world application!!
 
