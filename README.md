@@ -5,13 +5,19 @@ Generates Redacted Latitudes and Longitudes of missing entries. Task 1 of my Spi
 * folium - map generator
 * matplotlib - pyplots visualisation
 * pandas - dataset handler
-* seaborn - correlations and heatmaps
+* seaborn - correlations and 
+  
+# Problem Statement:
+The Chicago Police Department's CLEAR (Citizen Law Enforcement Analysis and Reporting) system has lost the locations of some of the crimes in Chicago. They need an approximate location of the crime from the remaining data. The dataset is available with the police department and it reflects reported incidents of crime (with the exception of murders where data exists for each victim) that occurred in the City of Chicago from 2012 to 2017.
+
+For the lost locations the related data to those locations is still with Police Department. You are given the data related to lost locations of the city. Your task is to predict the exact location of the Crime by the help Neural Networks algorithm.
 
 # Files and Folders:
-* assets - Some Images
-* Final - Has the train, test, validation data which has been organised
-* Weights - Trained model's Weights
-* S P Sharan.ipynb - The notebook corresponding to the code.
+The original dataset can be taken from [here](https://drive.google.com/drive/folders/12JgRDsv460rR5atQw2Bha0M0UGSd99Ip) or directly from [Kaggle](https://www.kaggle.com/currie32/crimes-in-chicago)
+* `Crime Location Deducer.ipynb` - The notebook corresponding to the code.
+* `assets` - Some Images
+* `Final` - Has the train, test, validation data which has been organised
+* `Weights` - Trained model's Weights
 
 # Notes to User:
 * The model if to be tested by anyone, I recommend to start from the "Scaling and Normalisation" part where the assets are loaded in and can proceed from there to satisfy all dependencies. 
